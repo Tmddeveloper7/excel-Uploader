@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "camelcase": "^8.0.0",
+    "camelcase-object-deep": "^1.1.7",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "promise-mysql": "^5.2.0",
+    "simple-excel-to-json": "^2.3.0"
+  }
+}
