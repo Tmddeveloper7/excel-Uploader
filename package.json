@@ -6,5 +6,34 @@
     "moment": "^2.29.4",
     "promise-mysql": "^5.2.0",
     "simple-excel-to-json": "^2.3.0"
-  }
+  },
+  "name": "excel-uploader",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "local": "NODE_ENV=local nodemon",
+    "dev": "NODE_ENV=dev nodemon",
+    "uat": "NODE_ENV=uat nodemon",
+    "prod": "NODE_ENV=prod nodemon",
+    "lint": "eslint . --ext .ts",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tmddeveloper7/excel-Uploader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tmddeveloper7/excel-Uploader/issues"
+  },
+  "homepage": "https://github.com/Tmddeveloper7/excel-Uploader#readme"
 }
