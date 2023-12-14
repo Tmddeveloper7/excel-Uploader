@@ -4,11 +4,11 @@ const processor = require('./core/transform')
 
 let $arguments = validateInput(process.argv)
 if(!$arguments ) {
-    return 
+    console.log('') 
 } else {
-    processor.uploadData($arguments).then($output =>{
+    processor.uploadData($arguments).then(($output:any) =>{
         console.log($output)
-    }).catch(error=>{
+    }).catch((error:any)=>{
         console.log(error)
     })
 }
