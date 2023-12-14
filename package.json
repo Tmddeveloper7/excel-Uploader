@@ -27,13 +27,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tmddeveloper7/excel-Uploader.git"
+    "url": "https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/excel_uploader"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tmddeveloper7/excel-Uploader/issues"
-  },
-  "homepage": "https://github.com/Tmddeveloper7/excel-Uploader#readme"
+  "license": "ISC"
 }
